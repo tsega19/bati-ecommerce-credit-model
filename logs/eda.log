@@ -1,0 +1,18 @@
+2024-10-04 22:38:57,182 INFO Data loaded successfully.
+2024-10-04 22:38:57,278 INFO Data overview analysis completed.
+2024-10-04 22:38:57,444 INFO Summary statistics of numeric columns completed
+2025-01-25 10:31:03,207 INFO Data loaded successfully.
+2025-01-25 10:31:06,935 INFO Data loaded successfully.
+2025-01-25 10:31:06,935 INFO Data loaded successfully.
+2025-01-25 10:31:07,430 INFO Data overview analysis completed.
+2025-01-25 10:31:07,430 INFO Data overview analysis completed.
+2025-01-25 10:31:08,087 INFO Summary statistics of numeric columns completed
+2025-01-25 10:31:08,087 INFO Summary statistics of numeric columns completed
+2025-01-25 10:33:06,944 INFO univariate analysis of numeric columns completed
+2025-01-25 10:33:06,944 INFO univariate analysis of numeric columns completed
+2025-01-25 10:33:07,838 INFO univariate analysis of categorical columns completed
+2025-01-25 10:33:07,838 INFO univariate analysis of categorical columns completed
+2025-01-25 10:33:08,934 INFO outlier detection for numeric columns completed
+2025-01-25 10:33:08,934 INFO outlier detection for numeric columns completed
+2025-01-25 10:33:12,458 INFO Bivariate analysis completed
+2025-01-25 10:33:12,458 INFO Bivariate analysis completed
