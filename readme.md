@@ -1,4 +1,3 @@
-# Bati E-commerce Credit Model
 
 ## Overview
 This project aims to develop a credit scoring model for an e-commerce platform, Bati, to evaluate the creditworthiness of customers. The model will help Bati to make informed decisions about lending and credit limits, reducing the risk of default and improving overall business performance.
@@ -99,7 +98,6 @@ Contributions are welcome! To contribute to the project, follow these steps:
 1. Fork the repository using `git fork https://github.com/username/bati-ecommerce-credit-model.git`.
 2. Make changes to the code.
 3. Commit the changes using `git commit -m "commit message"`.
-4. Push the changes to the forked repository using `git push`.
 5. Create a pull request to merge the changes into the main repository.
 
 ## Acknowledgments
