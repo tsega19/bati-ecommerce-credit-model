@@ -1,79 +1,69 @@
-# Project Overview
+# Credit Risk Scoring Model
 
-This project appears to be a documentation or knowledge base project, utilizing Markdown formatting for readability and organization. The presence of a `Table of Contents` suggests that the project is designed to be a comprehensive resource, with multiple sections and topics.
+## Overview
+This project develops a credit scoring model for Bati Bank's buy-now-pay-later service in partnership with an eCommerce company. The model aims to assess customer creditworthiness and predict the likelihood of default.
 
-## Project Goals
+## Business Context
+Bati Bank, a leading financial service provider, is partnering with an eCommerce company to offer a buy-now-pay-later service. This project creates a Credit Scoring Model using data provided by the eCommerce platform to evaluate potential borrowers.
 
-The primary goal of this project is likely to provide a centralized location for information and knowledge sharing. The use of Markdown formatting indicates that the project is intended to be easily readable and maintainable.
-
-## Project Structure
-
-The project is structured around a `Table of Contents`, which will likely be used to organize and link to various sections and topics within the project.
-
-## Target Audience
-
-The target audience for this project appears to be individuals seeking information and knowledge on a particular topic or set of topics. The project's structure and formatting suggest that it is intended to be a resource for learning and reference.
-
-## Future Development
-
-Future development of this project may include:
-
-* Adding additional sections and topics to the `Table of Contents`
-* Creating links to external resources and references
-* Incorporating images, diagrams, and other visual aids to enhance understanding
-* Implementing a search function or indexing system to facilitate navigation
-
-## Contributing
-
-Contributions to this project are welcome. If you would like to add to or modify the project, please submit a pull request with your changes.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Authors
-
-* [Your Name](https://github.com/yourgithubusername)
-
-## Acknowledgments
-
-* [List any acknowledgments or credits here]# Project Overview
-
-This project appears to be a documentation or knowledge base project, utilizing Markdown formatting for readability and organization. The presence of a `Table of Contents` suggests that the project is designed to be a comprehensive resource, with multiple sections and topics.
-
-## Project Goals
-
-The primary goal of this project is likely to provide a centralized location for information and knowledge sharing. The use of Markdown formatting indicates that the project is intended to be easily readable and maintainable.
 
 ## Project Structure
 
-The project is structured around a `Table of Contents`, which will likely be used to organize and link to various sections and topics within the project.
+```plaintext
 
-## Target Audience
+credit-risk-scoring-model/
+├── .vscode/
+│   └── settings.json
+├── .github/
+│   └── workflows/
+│       └── unittests.yml   # GitHub Actions
+├── .gitignore              # files and folders to be ignored by git
+├── requirements.txt        # contains dependencies for the project
+├── README.md               # Documentation for the projects
+├── src/
+│   └── __init__.py
+├── notebooks/
+│   ├── __init__.py
+|   ├──eda_analysis.ipynb               # Jupyter notebook for customer transaction data analysis 
+|   ├──feature_engineering.ipynb        # Jupyter notebook for feature engineering and woa analysis 
+|   ├──credit_scoring_model.ipynb       # Jupyter notebook for ml model training 
+│   └── README.md                       # Description of notebooks directory 
+├── tests/
+│   └── __init__.py
+└── scripts/
+    ├── __init__.py
+    ├── eda_analysis.py             # script for for customer transaction data analysis 
+    ├── feature_engineering.py      # Script for for feature engineering and woa analysis behavior
+    ├── credit_scoring_model.py            # script for ml model training model
+    └── README.md                   # Description of scripts directory
+    
+```
 
-The target audience for this project appears to be individuals seeking information and knowledge on a particular topic or set of topics. The project's structure and formatting suggest that it is intended to be a resource for learning and reference.
 
-## Future Development
+## Setup
 
-Future development of this project may include:
+1. Clone the repository:
+   ```
+   git clonehttps://github.com/OL-YAD/credit-risk-scoring-model.git
+   cd credit-risk-scoring-model
+   ```
 
-* Adding additional sections and topics to the `Table of Contents`
-* Creating links to external resources and references
-* Incorporating images, diagrams, and other visual aids to enhance understanding
-* Implementing a search function or indexing system to facilitate navigation
+2. Create a virtual environment (optional but recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
-## Contributing
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-Contributions to this project are welcome. If you would like to add to or modify the project, please submit a pull request with your changes.
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Authors
-
-* [Your Name](https://github.com/yourgithubusername)
-
-## Acknowledgments
-
-* [List any acknowledgments or credits here]
+## Model Development Process
+1. Exploratory Data Analysis (EDA)
+2. Feature Engineering
+3. Default Estimator Creation
+4. Model Selection and Training
+5. Model Evaluation
+6. API Development for Model Serving
