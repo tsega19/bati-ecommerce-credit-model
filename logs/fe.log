@@ -1,0 +1,21 @@
+2024-10-08 18:55:06,035 INFO Data loaded successfully.
+2024-10-08 18:55:06,252 INFO creating aggregate features
+2024-10-08 18:57:20,319 INFO extracted features from TransactionStartTime 
+2024-10-08 19:19:13,006 INFO Data loaded successfully.
+2024-10-08 19:19:13,253 INFO creating aggregate features on Amount
+2024-10-08 19:19:13,274 INFO extracted features from TransactionStartTime 
+2024-10-08 19:19:59,853 INFO Data loaded successfully.
+2024-10-08 19:20:00,078 INFO creating aggregate features on Amount
+2024-10-08 19:20:00,110 INFO extracted features from TransactionStartTime 
+2024-10-08 19:20:14,319 INFO RFM Scores are calculated
+2024-10-08 19:26:03,431 INFO Data loaded successfully.
+2024-10-08 19:26:03,714 INFO creating aggregate features on Amount
+2024-10-08 19:26:03,767 INFO extracted features from TransactionStartTime 
+2024-10-08 19:26:03,799 INFO categorical features are encoded using onehot encoder
+2024-10-08 19:30:04,506 INFO Data loaded successfully.
+2024-10-08 19:30:04,729 INFO creating aggregate features on Amount
+2024-10-08 19:30:04,769 INFO extracted features from TransactionStartTime 
+2024-10-08 19:30:04,828 INFO categorical features are encoded using onehot encoder
+2024-10-08 19:30:20,241 INFO scaled numeric features
+2024-10-08 19:30:20,606 INFO RFM Scores are calculated
+2024-10-08 19:30:21,718 INFO  labels is assigned based on RFMS_Score
